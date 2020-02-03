@@ -1,0 +1,50 @@
+body {
+    background-color: rgba(231, 85, 187, 0.575);
+}
+
+.page-header {
+    font-size: 2vw;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% auto 8%;
+    text-align: center;
+    color: white
+}
+
+.error {
+    width: 100%;
+    background: #f3c7ca;
+    border: #ffd5da 1px solid;
+    color: #d6001c;
+    text-align: center;
+    padding: 5px;
+    margin: 5px auto;
+}
+
+.success {
+    width: 100%;
+    color: green;
+    text-align: center;
+    padding: 3px;
+    margin: 2px auto;
+}
+
+.btn {
+    color: white;
+    background: rgb(170, 37, 137);
+
+}
+
+.btn:hover {
+    color: white;
+    text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.6);
+    transition: all .5s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
